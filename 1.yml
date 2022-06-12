@@ -1,0 +1,33 @@
+# My first Yaml code
+
+"Name" : "Lokesh"
+5g2 : Roll No.
+
+# lists
+---
+
+- Sasi
+- Aditya
+- BVB
+- sasi #YAML is Case sensitive
+
+# Block style
+---
+
+Technologies:
+ - React
+ - Redux
+ - Express
+ - NodeJS
+ - Firestore
+
+---
+
+#Single line block code
+
+Technologies: [React, Redux, Express, NodeJS,Firestore]
+
+#Single line key value pairs
+
+{Name: Lokesh, RollNo : "5g2", College : "Sasi"}
+...

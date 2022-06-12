@@ -1,0 +1,17 @@
+# Sequence 
+
+student: !!seq
+ -name
+ -age
+ -roll_number
+
+student: [name,age,roll_number]
+
+# Spare sequence
+# Some of the keys will be empty
+
+sparse_key: 
+ -hello
+ -how
+ -
+ -Null

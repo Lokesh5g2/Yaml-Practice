@@ -1,0 +1,50 @@
+# String 
+name: "Lokesh"
+sur_name: Tamiri
+middle_name: 'sai'
+
+# Include new line
+
+bio: | 
+I am lokesh 
+I am pursuing Full stack web dev
+
+# Display in Single line with new lines given
+
+message: >
+These are
+in separate lines
+
+# int
+
+number: 54
+
+# float
+percentage: 80.6
+
+# boolean
+is_exist : no #no,No,n,N,false,FALSE,False
+
+is_avail : yes #yes,Yes,y,Y,True,TRUE,true
+
+# Specify the datatype 
+
+name : !!str "Lokesh"
+
+marks: !!int 80
+
+percentage: !!float 40.6
+
+infinity : !!float .inf
+
+not_a_number: .nan
+
+boolean_value: !!bool no
+
+null_value : !!null Null
+
+#date and time
+
+date_of_doing : !!timestampp 2022-06-07 ##YYYY-MM-DD
+
+date_with_time: 2022-06-07T08-59-55 +5:30
